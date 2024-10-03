@@ -18,11 +18,12 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 ### Screenshot
 
+<img width="1010" alt="image" src="https://github.com/user-attachments/assets/93732271-d124-4a0a-839f-60f0a7042051">
 
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/recipe-page-using-tailwind-i_gmEr89tD](https://www.frontendmentor.io/solutions/recipe-page-using-tailwind-i_gmEr89tD)
 - Live Site URL: [https://66fecfdf90696ce4e2a369c9--stately-dieffenbachia-6d60c3.netlify.app](https://66fecfdf90696ce4e2a369c9--stately-dieffenbachia-6d60c3.netlify.app)
 
 ## My process
