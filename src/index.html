@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Omelette Recipe</title>
+    <link rel="stylesheet" href="output.css" />
+    <style>
+        .list-disc li::marker {
+          font-size: 0.5em; 
+          color: hsl(14, 45%, 36%);
+        }
+        .list-decimal li::marker {
+          font-size: 0.75em; /* Adjust the size of the bullet */
+          color: hsl(14, 45%, 36%);
+          font-weight: bold;
+        }
+
+      </style>
+  </head>
+  <body class="bg-stone100 font-outfit">
+    <div class="flex min-h-screen justify-center items-center">
+      <div class="flex flex-col bg-white rounded-2xl my-10 w-1/2 h-4/5 space-y-5">
+        <div class="sm:p-9">
+          <img src="assets/images/image-omelette.jpeg" alt="Omelette" class="rounded-lg" />
+        </div>
+        <div class="px-9">
+          <h1 class="sm:text-4xl text-2xl  text-left mb-5 font-youngSerif">Simple Omelette Recipe</h1>
+          <p class="text-left text-sm text-stone600">
+            An easy and quick dish, perfect for any meal. This classic omelette
+            combines beaten eggs cooked to perfection, optionally filled with
+            your choice of cheese, vegetables, or meats.
+          </p>
+        </div>
+        <div class="bg-rose50 p-7 m-9 rounded-lg">
+          <h2 class="text-lg font-semibold text-rose800 mb-2">Preparation time</h2>
+          <ul class="list-disc pl-5">
+            <li class="pl-2 pb-2">
+                <span class="text-sm text-stone600"><b>Total</b>: Approximately 10 minutes</span>
+              </li>
+            <li class="pl-2 pb-2">
+              <span class="text-sm text-stone600"><b>Preparation</b>: 5 minutes</span>
+            </li>
+            <li class="pl-2">
+              <span class="text-sm text-stone600"><b>Cooking</b>: 5 minutes</span>
+            </li>
+          </ul>
+        </div>
+        <div class="m-9">
+          <h2 class="text-brown800 text-3xl mb-4 font-youngSerif">Ingredients</h2>
+          <ul class="list-disc pl-5 mb-5">
+            <li class="pl-2"><span class="text-sm text-stone600">2-3 large eggs</span></li>
+            <li class="pl-2"><span class="text-sm text-stone600">Salt, to taste</span></li>
+            <li class="pl-2"><span class="text-sm text-stone600">Pepper, to taste</span></li>
+            <li class="pl-2">
+              <span class="text-sm text-stone600">1 tablespoon of butter or optionally</span>
+            </li>
+            <li class="pl-2">
+              <span class="text-sm text-stone600">Optional fillings, cheese, diced vegetables, cooked meats,
+                herbs</span>
+            </li>
+          </ul>
+          <hr />
+        </div>
+        <div class="m-9">
+          <h2 class="text-brown800 text-3xl mb-4 font-youngSerif">Instructions</h2>
+          <ol class="list-decimal pl-7 mb-5">
+            <li class="pl-2">
+              <span class="text-sm text-stone600"><b>Beat the eggs</b>: In a bowl, beat the eggs with a pinch of
+                salt and pepper until they are well mixed. You can add a
+                tablespoon of water or milk for a fluffier texture.</span
+              >
+            </li>
+            <li class="pl-2">
+              <span class="text-sm text-stone600"><b>Heat the pan</b>: Place a non-stick frying pan over medium
+                heat and add butter or oil.</span
+              >
+            </li>
+            <li class="pl-2">
+              <span class="text-sm text-stone600"><b>Cook the omelette</b>: Once the butter is melted and
+                bubbling, pour in the eggs. Tilt the pan to ensure the eggs
+                evenly coat the surface.</span
+              >
+            </li>
+            <li class="pl-2">
+              <span class="text-sm text-stone600"><b>Add fillings (optional)</b>: When the eggs begin to set at
+                the edges but are still slightly runny in the middle, sprinkle
+                your chosen fillings over one half of the omelette.</span
+              >
+            </li>
+            <li class="pl-2">
+              <span class="text-sm text-stone600"><b>Fold and serve</b>: As the omelette continues to cook,
+                carefully lift one edge and fold it over the fillings. Let it
+                cook for another minute, then slide it onto a plate.</span
+              >
+            </li>
+            <li class="pl-2">
+              <span class="text-sm text-stone600"><b>Enjoy</b>: Serve hot, with additional salt and pepper if
+                needed.</span
+              >
+            </li>
+          </ol>
+          <hr />
+        </div>
+        <div class="m-9">
+          <h2 class="text-brown800 text-3xl mb-4 font-youngSerif">Nutrition</h2>
+          <p class="text-sm text-stone600">
+            The table below shows nutritional values per serving without the
+            additional fillings.
+          </p>
+          <table class="w-full my-5 ">
+            <tr class="border-b border-b-stone150">
+                <td class="pb-2"><span class="text-left text-stone600 text-sm pl-7 ">Calories</span</td>
+                <td class="pb-2"><span class="text-brown800 text-sm text-left pl-7 font-bold ">277kcal</span></td>
+            </tr>
+            <tr class="border-b border-b-stone150">
+                <td class="pb-2"><span class="text-left text-stone600 text-sm pl-7">Carbs</span</td>
+                <td class="pb-2"><span class="text-brown800 text-sm text-left pl-7 font-bold">0g</span></td>
+            </tr>
+            <tr class="border-b border-b-stone150">
+                <td class="pb-2"><span class="text-left text-stone600 text-sm pl-7">Protein</span></td>
+                <td class="pb-2"><span class="text-brown800 text-sm text-left pl-7 font-bold">20g</span></td>
+            </tr>
+            <tr class="">
+                <td class="pb-2"><span class="text-left text-stone600 text-sm pl-7">Fat</span></td>
+                <td class="pb-2"><span class="text-brown800 text-sm text-left pl-7 font-bold">22g</span></td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
