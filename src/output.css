@@ -594,6 +594,11 @@ video {
   margin-bottom: 0.25rem;
 }
 
+.my-24 {
+  margin-top: 6rem;
+  margin-bottom: 6rem;
+}
+
 .mb-2 {
   margin-bottom: 0.5rem;
 }
@@ -648,6 +653,18 @@ video {
 
 .w-1 {
   width: 0.25rem;
+}
+
+.max-w-96 {
+  max-width: 24rem;
+}
+
+.max-w-2xl {
+  max-width: 42rem;
+}
+
+.max-w-xl {
+  max-width: 36rem;
 }
 
 .border-collapse {
