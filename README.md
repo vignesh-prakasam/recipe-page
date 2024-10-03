@@ -24,7 +24,7 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 ### Links
 
 - Solution URL: [https://www.frontendmentor.io/solutions/recipe-page-using-tailwind-i_gmEr89tD](https://www.frontendmentor.io/solutions/recipe-page-using-tailwind-i_gmEr89tD)
-- Live Site URL: [[https://66fecfdf90696ce4e2a369c9--stately-dieffenbachia-6d60c3.netlify.app](https://stately-dieffenbachia-6d60c3.netlify.app)]
+- Live Site URL: [https://stately-dieffenbachia-6d60c3.netlify.app](https://stately-dieffenbachia-6d60c3.netlify.app)
 
 ## My process
 
